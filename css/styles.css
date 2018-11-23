@@ -142,7 +142,13 @@ div.header{
 .service-list ul li.nav-item{
     line-height: 2;
 }
+.stacked{
+        float: right;
+}
 
+.list-small{
+    display: none;
+}
 
 
 /* MID SEC */
@@ -262,8 +268,27 @@ div.header{
     font-family: 'Myriad Pro';
     margin: 2rem 0;
     box-shadow: 0 16px 16px rgba(0, 0, 0, .5);
+    color: #000;
 }
 
+.form-request .b-t{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #6d2d2d;
+}
+
+.form-request .s-t{
+    font-size: 2rem;
+    color: #6d2d2d;
+    font-weight: lighter;
+}
+
+.rest-cap{
+    color: #888;
+    padding: .5rem;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 /* ---------------------------------------------------
@@ -519,12 +544,59 @@ div.header{
         display: none;
     }
 
-    .replace-image{
-        display: inline-block;
+    .stacked{
+        float: none;
     }
-    .stacked-image{
-        /* display: none; */
+   
+    .form-box{
+        background-color: #6d2d2d;
+        padding: 2rem ;
+        margin: 1rem;
+        text-align: center;
     }
 
+    .form-box p{
+        font-size: 14px;
+        text-transform: capitalize;
+    }
 
+    a.request-btn{
+      
+        font-size: 16px;
+        font-weight: 800;
+      
+        margin:  0;
+        box-shadow: 0 8px 8px rgba(0, 0, 0, .4);
+       
+    }
+
+    .about .big-q{
+        padding: .5rem;   
+        border: 2px solid #a0a0a0;
+    }
+    .about .big-q span{
+        font-size: 1rem;
+        font-weight: 600;
+     
+    }
+    .nyc-fact .fact{
+      
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    .list-small{
+        display: block;
+    }
+
+    .list-main{
+        display: none !important;
+    }
+
+    /* row overflow */
+    .small-well{
+        margin-right: 0 !important;
+    }
 }
